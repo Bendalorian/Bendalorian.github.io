@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+}
+p,li {
+    color:rgb(132, 132, 132);
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display:inline ;
+}
+body {
+    padding: 70px;
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-image:url("Images/map.png") ;
+}
+#amongus{
+    position: relative;
+    left:90%;
+    width: 1px;
+    height: 1px;
+}
