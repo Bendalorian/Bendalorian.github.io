@@ -1,14 +1,34 @@
 h1 {
-    color: red;
+    color: rgb(255, 255, 0);
+    display: flex;
+    justify-content: center;
 }
 p,li {
     color:rgb(132, 132, 132);
 }
 ul {
     list-style-type: none;
+    margin: 0;
+
+    display: flex;
+    justify-content: left;
+
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 100px;
 }
 li {
     display:inline ;
+    float:left;
+    font-size: small;
+}
+li a {
+    display: block;
+    color:white;
+    text-align:center;
+    padding: 14px 16px
+    
 }
 body {
     padding: 70px;
@@ -19,6 +39,8 @@ body {
 #amongus{
     position: relative;
     left:90%;
-    width: 1px;
-    height: 1px;
+    width: 10px;
+    height: 10px;
+    display:flex;
+    cursor: pointer;
 }
