@@ -4,9 +4,9 @@ h1 {
     justify-content: center;
 }
 p,li {
-    color:rgb(132, 132, 132);
+    color:#000000;
 }
-ul {
+#navbar {
     list-style-type: none;
     margin: 0;
 
@@ -18,12 +18,12 @@ ul {
     background-color: black;
     border-radius: 100px;
 }
-li {
+#navbar li {
     display:inline ;
     float:left;
     font-size: small;
 }
-li a {
+#navbar li a {
     display: block;
     color:white;
     text-align:center;
@@ -89,4 +89,7 @@ td {
 }
 .cheeseimage {
     width: 100px;
+}
+#Jokes {
+    
 }
