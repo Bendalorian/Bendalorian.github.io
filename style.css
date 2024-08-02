@@ -44,3 +44,49 @@ body {
     display:flex;
     cursor: pointer;
 }
+
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #282c36; /* Change this to your desired background color */
+}
+table, th, td {
+border:1px solid black;
+border-collapse: collapse;
+}
+
+th {
+padding: 20px;
+
+}
+
+td {
+    padding: 10px;
+}
+
+#s {
+    background-color:  red;
+}
+#a {
+    background-color:orange ;
+}
+#b {
+    background-color: yellow;
+}
+#c {
+    background-color: greenyellow;
+}
+#d {
+    background-color: blue;
+}
+#f {
+    background-color: rgb(152, 72, 143);
+}
+.cheeseimage {
+    width: 100px;
+}
